@@ -21,18 +21,6 @@ body{
     line-height:1.7;
 }
 
-.hero{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('Imagenes/BI_26.png');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    color:white;
-}
-
 .overlay{
     width:100%;
 }
