@@ -1,0 +1,1 @@
+# Grupo7_BuildingApplications_Pucp2026
