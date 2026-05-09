@@ -1,44 +1,71 @@
-# index.html
-
-```html
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Building Cloud Business Applications for a Brewery Plant</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- HERO -->
+
     <header class="hero">
+
         <div class="overlay">
+
             <div class="hero-content">
-                <h1>Building Cloud Business Applications for a Brewery Plant</h1>
+
+                <h1>
+                    Building Cloud Business Applications for a Brewery Plant
+                </h1>
+
                 <p>
                     Solución cloud orientada al monitoreo y análisis del cumplimiento
                     del Plan Maestro de Producción (PPA) en una planta cervecera.
                 </p>
 
-                <a href="#overview" class="btn">Explorar Proyecto</a>
+                <a href="#overview" class="btn">
+                    Explorar Proyecto
+                </a>
+
             </div>
+
         </div>
+
     </header>
 
+    <!-- INTEGRANTES -->
+
     <section class="team section">
+
         <h2>Integrantes</h2>
 
         <div class="team-grid">
+
             <div class="card">Renzo Hinostroza Aylas</div>
+
             <div class="card">Piero Paredes Santa Cruz</div>
+
             <div class="card">Patricia Escajadillo Escalante</div>
+
             <div class="card">Jorge Luis Pariapaza Gutierrez</div>
+
             <div class="card">Kely Quintana Montaya</div>
+
         </div>
+
     </section>
 
+    <!-- DESCRIPCION -->
+
     <section id="overview" class="section light-section">
+
         <div class="container">
+
             <h2>Descripción General del Proyecto</h2>
 
             <p>
@@ -56,96 +83,153 @@
             </p>
 
             <div class="tech-grid">
+
                 <div class="tech-card">Azure SQL Database</div>
+
                 <div class="tech-card">Microsoft Fabric</div>
+
                 <div class="tech-card">Cursor</div>
+
                 <div class="tech-card">Power BI</div>
+
             </div>
+
         </div>
+
     </section>
 
+    <!-- OBJETIVOS -->
+
     <section class="section">
+
         <div class="container">
+
             <h2>Objetivos Principales</h2>
 
             <div class="cards-grid">
+
                 <div class="info-card">
+
                     <h3>Azure SQL Database</h3>
+
                     <p>
                         Registro estructurado del Plan de Producción y Producción Real.
                     </p>
+
                 </div>
 
                 <div class="info-card">
+
                     <h3>Cursor</h3>
+
                     <p>
                         Desarrollo de aplicaciones, APIs y consultas operativas.
                     </p>
+
                 </div>
 
                 <div class="info-card">
+
                     <h3>Microsoft Fabric</h3>
+
                     <p>
                         Procesos ETL utilizando Data Factory y notebooks Python.
                     </p>
+
                 </div>
 
                 <div class="info-card">
+
                     <h3>Power BI</h3>
+
                     <p>
                         Dashboards interactivos y storytelling empresarial.
                     </p>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
+    <!-- RESULTADOS -->
+
     <section class="section dark-section">
+
         <div class="container">
+
             <h2>Resultados Esperados</h2>
 
             <div class="cards-grid">
+
                 <div class="info-card dark-card">
+
                     <h3>Automatización Operativa</h3>
+
                     <p>
                         Reducción de tiempos manuales mediante pipelines ETL automatizados.
                     </p>
+
                 </div>
 
                 <div class="info-card dark-card">
+
                     <h3>Inteligencia en Tiempo Real</h3>
+
                     <p>
                         Dashboards interactivos para monitoreo del PPA.
                     </p>
+
                 </div>
 
                 <div class="info-card dark-card">
+
                     <h3>Integración Centralizada</h3>
+
                     <p>
                         APIs y aplicaciones conectadas directamente a Azure SQL Database.
                     </p>
+
                 </div>
 
                 <div class="info-card dark-card">
+
                     <h3>Alertas Proactivas</h3>
+
                     <p>
                         Notificaciones automáticas ante desviaciones críticas.
                     </p>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
+
+    <!-- ARQUITECTURA -->
 
     <section class="section light-section">
+
         <div class="container">
+
             <h2>Arquitectura del Proyecto</h2>
 
-            <img src="Imagenes/Arquitectura.png" width="1100">
+            <img src="Imagenes/Arquitectura.png" width="1000">
+
         </div>
+
     </section>
 
+    <!-- DATA LAYER -->
+
     <section class="section">
+
         <div class="container">
+
             <h2>Data Layer</h2>
 
             <p>
@@ -155,169 +239,258 @@
             </p>
 
             <div class="cards-grid">
+
                 <div class="info-card">
+
                     <h3>tb_plan_de_produccion</h3>
+
                     <p>Registro de planificación operativa.</p>
+
                 </div>
 
                 <div class="info-card">
+
                     <h3>tb_produccion_real</h3>
+
                     <p>Resultados reales y cálculo del indicador PPA.</p>
+
                 </div>
 
                 <div class="info-card">
+
                     <h3>tb_variables_presentadas</h3>
+
                     <p>Registro de pérdidas y desviaciones.</p>
+
                 </div>
 
                 <div class="info-card">
+
                     <h3>tb_variables_de_afectacion</h3>
+
                     <p>Catálogo de causas raíz operativas.</p>
+
                 </div>
+
             </div>
 
-            <img src="Imagenes/ModeloAzure.png" class="full-image">
+            <img src="Imagenes/ModeloAzure.png" width="1000">
+
         </div>
+
     </section>
 
+    <!-- APPLICATION -->
+
     <section class="section dark-section">
+
         <div class="container">
+
             <h2>Application Layer</h2>
 
-            <img src="Imagenes/DiagramaFlujo.png" class="full-image">
+            <img src="Imagenes/DiagramaFlujo.png" width="1000">
 
             <div class="gallery-grid">
-                <img src="Imagenes/App1.png">
-                <img src="Imagenes/App2.png">
-                <img src="Imagenes/App3.png">
-                <img src="Imagenes/App4.png">
-                <img src="Imagenes/App5.png">
-                <img src="Imagenes/App6.png">
-                <img src="Imagenes/App7.png">
-                <img src="Imagenes/App8.png">
+
+                <img src="Imagenes/App1.png" width="1000">
+
+                <img src="Imagenes/App2.png" width="1000">
+
+                <img src="Imagenes/App3.png" width="1000">
+
+                <img src="Imagenes/App4.png" width="1000">
+
+                <img src="Imagenes/App5.png" width="1000">
+
+                <img src="Imagenes/App6.png" width="1000">
+
+                <img src="Imagenes/App7.png" width="1000">
+
+                <img src="Imagenes/App8.png" width="1000">
+
             </div>
+
         </div>
+
     </section>
 
+    <!-- ETL -->
+
     <section class="section light-section">
+
         <div class="container">
+
             <h2>ETL Layer</h2>
 
-            <p>
-                El sistema emplea un Dataflow automatizado utilizando Microsoft Fabric,
-                Azure SQL Database y notebooks en Python.
-            </p>
-
             <div class="gallery-grid">
-                <img src="Imagenes/azureserver.png">
-                <img src="Imagenes/dataflow.png">
-                <img src="Imagenes/codigoenvio1.png">
-                <img src="Imagenes/codigoenvio2.png">
-                <img src="Imagenes/codigoenvio3.png">
-                <img src="Imagenes/codigoenvio4.png">
-                <img src="Imagenes/codigoenvio5.png">
-                <img src="Imagenes/codigoenvio6.png">
+
+                <img src="Imagenes/azureserver.png" width="1000">
+
+                <img src="Imagenes/dataflow.png" width="1000">
+
+                <img src="Imagenes/codigoenvio1.png" width="1000">
+
+                <img src="Imagenes/codigoenvio2.png" width="1000">
+
+                <img src="Imagenes/codigoenvio3.png" width="1000">
+
+                <img src="Imagenes/codigoenvio4.png" width="1000">
+
+                <img src="Imagenes/codigoenvio5.png" width="1000">
+
+                <img src="Imagenes/codigoenvio6.png" width="1000">
+
             </div>
+
         </div>
+
     </section>
+
+    <!-- DWH -->
 
     <section class="section">
+
         <div class="container">
+
             <h2>DWH Layer</h2>
 
-            <p>
-                La capa DWH consolida información histórica para análisis avanzado,
-                reporting empresarial y construcción de indicadores operativos.
-            </p>
+            <img src="Imagenes/Data Warehouse_1.png" width="1000">
 
-            <img src="Imagenes/Data Warehouse_1.png" class="full-image">
         </div>
+
     </section>
+
+    <!-- POWER BI -->
 
     <section class="section dark-section">
+
         <div class="container">
+
             <h2>Presentation Layer - Power BI</h2>
 
-            <p>
-                Dashboards interactivos desarrollados en Power BI para responder
-                preguntas de negocio y monitorear KPIs operativos.
-            </p>
-
             <div class="gallery-grid">
-                <img src="Imagenes/BI_1.png">
-                <img src="Imagenes/BI_2.png">
-                <img src="Imagenes/BI_3.png">
-                <img src="Imagenes/BI_4.png">
-                <img src="Imagenes/BI_5.png">
-                <img src="Imagenes/BI_6.png">
-                <img src="Imagenes/BI_7.png">
-                <img src="Imagenes/BI_8.png">
-                <img src="Imagenes/BI_9.png">
-                <img src="Imagenes/BI_10.png">
-                <img src="Imagenes/BI_11.png">
-                <img src="Imagenes/BI_12.png">
-                <img src="Imagenes/BI_13.png">
-                <img src="Imagenes/BI_14.png">
-                <img src="Imagenes/BI_15.png">
-                <img src="Imagenes/BI_16.png">
-                <img src="Imagenes/BI_17.png">
-                <img src="Imagenes/BI_18.png">
-                <img src="Imagenes/BI_19.png">
-                <img src="Imagenes/BI_20.png">
-                <img src="Imagenes/BI_21.png">
-                <img src="Imagenes/BI_22.png">
-                <img src="Imagenes/BI_23.png">
-                <img src="Imagenes/BI_24.png">
-                <img src="Imagenes/BI_25.png">
-                <img src="Imagenes/BI_26.png">
+
+                <img src="Imagenes/BI_1.png" width="1000">
+                <img src="Imagenes/BI_2.png" width="1000">
+                <img src="Imagenes/BI_3.png" width="1000">
+                <img src="Imagenes/BI_4.png" width="1000">
+                <img src="Imagenes/BI_5.png" width="1000">
+                <img src="Imagenes/BI_6.png" width="1000">
+                <img src="Imagenes/BI_7.png" width="1000">
+                <img src="Imagenes/BI_8.png" width="1000">
+                <img src="Imagenes/BI_9.png" width="1000">
+                <img src="Imagenes/BI_10.png" width="1000">
+                <img src="Imagenes/BI_11.png" width="1000">
+                <img src="Imagenes/BI_12.png" width="1000">
+                <img src="Imagenes/BI_13.png" width="1000">
+                <img src="Imagenes/BI_14.png" width="1000">
+                <img src="Imagenes/BI_15.png" width="1000">
+                <img src="Imagenes/BI_16.png" width="1000">
+                <img src="Imagenes/BI_17.png" width="1000">
+                <img src="Imagenes/BI_18.png" width="1000">
+                <img src="Imagenes/BI_19.png" width="1000">
+                <img src="Imagenes/BI_20.png" width="1000">
+                <img src="Imagenes/BI_21.png" width="1000">
+                <img src="Imagenes/BI_22.png" width="1000">
+                <img src="Imagenes/BI_23.png" width="1000">
+                <img src="Imagenes/BI_24.png" width="1000">
+                <img src="Imagenes/BI_25.png" width="1000">
+                <img src="Imagenes/BI_26.png" width="1000">
+
             </div>
+
         </div>
+
     </section>
 
+    <!-- DASHBOARD -->
+
     <section class="section light-section">
+
         <div class="container">
+
             <h2>Dashboard Informativo</h2>
 
             <div class="gallery-grid">
-                <img src="Imagenes/Dashboard_1.png">
-                <img src="Imagenes/Dashboard_2.png">
-                <img src="Imagenes/Dashboard_3.png">
+
+                <img src="Imagenes/Dashboard_1.png" width="1000">
+
+                <img src="Imagenes/Dashboard_2.png" width="1000">
+
+                <img src="Imagenes/Dashboard_3.png" width="1000">
+
             </div>
+
         </div>
+
     </section>
 
+    <!-- CONCLUSIONES -->
+
     <section class="section conclusions">
+
         <div class="container">
+
             <h2>Conclusiones</h2>
 
             <div class="cards-grid">
+
                 <div class="info-card">
+
                     <h3>Automatización Operativa</h3>
-                    <p>Procesos ETL automatizados y reducción de tiempos manuales.</p>
+
+                    <p>
+                        Procesos ETL automatizados y reducción de tiempos manuales.
+                    </p>
+
                 </div>
 
                 <div class="info-card">
+
                     <h3>Inteligencia en Tiempo Real</h3>
-                    <p>Visualización y monitoreo de KPIs críticos.</p>
+
+                    <p>
+                        Visualización y monitoreo de KPIs críticos.
+                    </p>
+
                 </div>
 
                 <div class="info-card">
+
                     <h3>Seguridad y Trazabilidad</h3>
-                    <p>Control de accesos mediante Azure y Power BI.</p>
+
+                    <p>
+                        Control de accesos mediante Azure y Power BI.
+                    </p>
+
                 </div>
 
                 <div class="info-card">
+
                     <h3>Escalabilidad Cloud</h3>
-                    <p>Arquitectura preparada para crecimiento empresarial.</p>
+
+                    <p>
+                        Arquitectura preparada para crecimiento empresarial.
+                    </p>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
+    <!-- FOOTER -->
+
     <footer>
-        <p>Grupo 7 - PUCP 2026 | Building Cloud Business Applications</p>
+
+        <p>
+            Grupo 7 - PUCP 2026 | Building Cloud Business Applications
+        </p>
+
     </footer>
 
 </body>
+
 </html>
-```
