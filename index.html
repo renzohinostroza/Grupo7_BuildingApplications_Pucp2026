@@ -5,492 +5,572 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Building Cloud Business Applications for a Brewery Plant</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- HERO -->
-
     <header class="hero">
-
+        <div class="hero-bg"></div>
         <div class="overlay">
-
             <div class="hero-content">
-
-                <h1>
-                    Building Cloud Business Applications for a Brewery Plant
-                </h1>
-
+                <span class="hero-badge">🍺 Grupo 7 · PUCP 2026</span>
+                <h1>Building Cloud Business Applications<br><span class="accent">for a Brewery Plant</span></h1>
                 <p>
                     Solución cloud orientada al monitoreo y análisis del cumplimiento
-                    del Plan Maestro de Producción (PPA) en una planta cervecera.
+                    del Plan Maestro de Producción (PPA) en una planta cervecera industrial.
                 </p>
-
-                <a href="#overview" class="btn">
-                    Explorar Proyecto
-                </a>
-
+                <div class="hero-tech-pills">
+                    <span>☁️ Azure SQL</span>
+                    <span>🏭 Microsoft Fabric</span>
+                    <span>💡 Power BI</span>
+                    <span>⚡ Cursor</span>
+                </div>
+                <a href="#overview" class="btn">Explorar Proyecto ↓</a>
             </div>
-
         </div>
-
     </header>
 
     <!-- INTEGRANTES -->
-
     <section class="team section">
-
-        <h2>Integrantes</h2>
-
-        <div class="team-grid">
-
-            <div class="card">Renzo Hinostroza Aylas</div>
-
-            <div class="card">Piero Paredes Santa Cruz</div>
-
-            <div class="card">Patricia Escajadillo Escalante</div>
-
-            <div class="card">Jorge Luis Pariapaza Gutierrez</div>
-
-            <div class="card">Kely Quintana Montaya</div>
-
+        <div class="container">
+            <div class="section-label">👥 Equipo</div>
+            <h2>Integrantes</h2>
+            <div class="team-grid">
+                <div class="card">
+                    <span class="card-icon">👤</span>
+                    <span>Renzo Hinostroza Aylas</span>
+                </div>
+                <div class="card">
+                    <span class="card-icon">👤</span>
+                    <span>Piero Paredes Santa Cruz</span>
+                </div>
+                <div class="card">
+                    <span class="card-icon">👤</span>
+                    <span>Patricia Escajadillo Escalante</span>
+                </div>
+                <div class="card">
+                    <span class="card-icon">👤</span>
+                    <span>Jorge Luis Pariapaza Gutierrez</span>
+                </div>
+                <div class="card">
+                    <span class="card-icon">👤</span>
+                    <span>Kely Quintana Montaya</span>
+                </div>
+            </div>
         </div>
-
     </section>
 
-    <!-- DESCRIPCION -->
-
+    <!-- DESCRIPCION GENERAL -->
     <section id="overview" class="section light-section">
-
         <div class="container">
-
+            <div class="section-label">📋 Descripción</div>
             <h2>Descripción General del Proyecto</h2>
-
             <p>
-                Este proyecto implementa una solución automatizada para una planta
+                Este proyecto implementa una solución de negocio automatizada para una planta
                 cervecera industrial, permitiendo registrar, monitorear y analizar el
-                cumplimiento del Plan Maestro de Producción (PPA).
+                cumplimiento del Plan Maestro de Producción (PPA), integrando líneas de
+                producción, marcas, turnos, supervisores y variables de afectación operativa
+                en una <strong>única plataforma digital centralizada</strong>.
             </p>
-
             <p>
                 La arquitectura propuesta está basada en la nube y diseñada para
                 consolidar información operativa en tiempo real, optimizar su
                 procesamiento mediante flujos ETL y proporcionar acceso seguro y
-                flexible mediante aplicaciones low-code y herramientas modernas de
+                flexible a través de aplicaciones low-code y herramientas modernas de
                 inteligencia de negocios.
             </p>
-
+            <p>La solución integra tecnologías cloud que permiten a la planta cervecera contar con una plataforma integral, escalable y orientada a la toma de decisiones basada en datos:</p>
             <div class="tech-grid">
-
-                <div class="tech-card">Azure SQL Database</div>
-
-                <div class="tech-card">Microsoft Fabric</div>
-
-                <div class="tech-card">Cursor</div>
-
-                <div class="tech-card">Power BI</div>
-
+                <div class="tech-card">
+                    <span class="tech-icon">🗄️</span>
+                    <strong>Azure SQL Database</strong>
+                </div>
+                <div class="tech-card">
+                    <span class="tech-icon">🏭</span>
+                    <strong>Microsoft Fabric</strong>
+                    <small>Data Factory & Warehouse</small>
+                </div>
+                <div class="tech-card">
+                    <span class="tech-icon">⚡</span>
+                    <strong>Cursor</strong>
+                </div>
+                <div class="tech-card">
+                    <span class="tech-icon">📊</span>
+                    <strong>Microsoft Power BI</strong>
+                </div>
             </div>
-
         </div>
-
     </section>
 
     <!-- OBJETIVOS -->
-
     <section class="section">
-
         <div class="container">
-
+            <div class="section-label">🎯 Metas</div>
             <h2>Objetivos Principales</h2>
-
-            <div class="cards-grid">
-
-                <div class="info-card">
-
-                    <h3>Azure SQL Database</h3>
-
-                    <p>
-                        Registro estructurado del Plan de Producción y Producción Real.
-                    </p>
-
+            <div class="objectives-list">
+                <div class="objective-item">
+                    <span class="obj-num">01</span>
+                    <div>
+                        <strong>Azure SQL Database</strong>
+                        <p>Implementar una base de datos para el registro estructurado del Plan de Producción y Producción Real.</p>
+                    </div>
                 </div>
-
-                <div class="info-card">
-
-                    <h3>Cursor</h3>
-
-                    <p>
-                        Desarrollo de aplicaciones, APIs y consultas operativas.
-                    </p>
-
+                <div class="objective-item">
+                    <span class="obj-num">02</span>
+                    <div>
+                        <strong>Cursor como entorno de desarrollo</strong>
+                        <p>Construcción de aplicaciones, APIs y consultas operativas.</p>
+                    </div>
                 </div>
-
-                <div class="info-card">
-
-                    <h3>Microsoft Fabric</h3>
-
-                    <p>
-                        Procesos ETL utilizando Data Factory y notebooks Python.
-                    </p>
-
+                <div class="objective-item">
+                    <span class="obj-num">03</span>
+                    <div>
+                        <strong>Procesos ETL con Microsoft Fabric</strong>
+                        <p>Desarrollar procesos ETL utilizando Microsoft Fabric Data Factory y notebooks en Python.</p>
+                    </div>
                 </div>
-
-                <div class="info-card">
-
-                    <h3>Power BI</h3>
-
-                    <p>
-                        Dashboards interactivos y storytelling empresarial.
-                    </p>
-
+                <div class="objective-item">
+                    <span class="obj-num">04</span>
+                    <div>
+                        <strong>Data Warehouse en Microsoft Fabric</strong>
+                        <p>Construir un DWH para consolidación y análisis histórico del indicador PPA.</p>
+                    </div>
                 </div>
-
+                <div class="objective-item">
+                    <span class="obj-num">05</span>
+                    <div>
+                        <strong>Automatización de validaciones</strong>
+                        <p>Transformaciones mediante notebooks en Python y pipelines ETL.</p>
+                    </div>
+                </div>
+                <div class="objective-item">
+                    <span class="obj-num">06</span>
+                    <div>
+                        <strong>Dashboards en Power BI</strong>
+                        <p>Facilitar el análisis de indicadores operativos mediante dashboards interactivos y storytelling empresarial.</p>
+                    </div>
+                </div>
             </div>
-
         </div>
-
     </section>
 
-    <!-- RESULTADOS -->
-
+    <!-- RESULTADOS ESPERADOS -->
     <section class="section dark-section">
-
         <div class="container">
-
+            <div class="section-label light-label">🚀 Impacto</div>
             <h2>Resultados Esperados</h2>
-
             <div class="cards-grid">
-
                 <div class="info-card dark-card">
-
+                    <span class="card-ico">⚙️</span>
                     <h3>Automatización Operativa</h3>
-
-                    <p>
-                        Reducción de tiempos manuales mediante pipelines ETL automatizados.
-                    </p>
-
+                    <p>Reducción de tiempos manuales mediante pipelines ETL automatizados y notebooks desarrollados en Python.</p>
                 </div>
-
                 <div class="info-card dark-card">
-
-                    <h3>Inteligencia en Tiempo Real</h3>
-
-                    <p>
-                        Dashboards interactivos para monitoreo del PPA.
-                    </p>
-
+                    <span class="card-ico">📈</span>
+                    <h3>Inteligencia de Negocio en Tiempo Real</h3>
+                    <p>Dashboards interactivos en Microsoft Power BI para monitoreo del PPA, cumplimiento de producción y análisis de variables de afectación.</p>
                 </div>
-
                 <div class="info-card dark-card">
-
+                    <span class="card-ico">🔗</span>
                     <h3>Integración Centralizada</h3>
-
-                    <p>
-                        APIs y aplicaciones conectadas directamente a Azure SQL Database.
-                    </p>
-
+                    <p>Registro y actualización de información operativa mediante APIs y aplicaciones conectadas directamente a Azure SQL Database.</p>
                 </div>
-
                 <div class="info-card dark-card">
-
+                    <span class="card-ico">🔔</span>
                     <h3>Alertas Proactivas</h3>
-
-                    <p>
-                        Notificaciones automáticas ante desviaciones críticas.
-                    </p>
-
+                    <p>Notificaciones automáticas cuando: el PPA sea menor a 96%, existan paradas críticas y se detecten desviaciones relevantes.</p>
                 </div>
-
             </div>
-
         </div>
+    </section>
 
+    <!-- SOLUCIÓN CLOUD -->
+    <section class="section light-section">
+        <div class="container">
+            <div class="section-label">☁️ Tecnología</div>
+            <h2>Solución Cloud con Microsoft Fabric y Power Platform</h2>
+            <p>La solución implementa una arquitectura moderna en la nube orientada a integrar y automatizar procesos críticos de producción cervecera.</p>
+            <div class="cards-grid four-col">
+                <div class="info-card">
+                    <span class="card-ico">🗂️</span>
+                    <h3>Data Management</h3>
+                    <p>Microsoft Fabric Warehouse y Data Factory para integración, transformación y consolidación de datos.</p>
+                </div>
+                <div class="info-card">
+                    <span class="card-ico">💾</span>
+                    <h3>Data Storage</h3>
+                    <p>Azure SQL Database como repositorio central para producción planificada y producción real.</p>
+                </div>
+                <div class="info-card">
+                    <span class="card-ico">💻</span>
+                    <h3>Desarrollo y Aplicaciones</h3>
+                    <p>Cursor como entorno de desarrollo para APIs, dashboards y automatizaciones.</p>
+                </div>
+                <div class="info-card">
+                    <span class="card-ico">📊</span>
+                    <h3>Business Intelligence</h3>
+                    <p>Microsoft Power BI para dashboards ejecutivos y análisis operacional.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- ARQUITECTURA -->
-
-    <section class="section light-section">
-
+    <section class="section">
         <div class="container">
-
+            <div class="section-label">🏗️ Diseño</div>
             <h2>Arquitectura del Proyecto</h2>
 
-            <img src="Imagenes/Arquitectura.png" width="1000">
+            <div class="arch-layers">
+                <div class="arch-row">
+                    <div class="arch-badge">📥 Data Sources</div>
+                    <p>Los datos provienen de: planes de producción, producción real, líneas, marcas, turnos, supervisores y variables de afectación.</p>
+                </div>
+                <div class="arch-row">
+                    <div class="arch-badge">🗄️ Data Layer</div>
+                    <p>La información se centraliza en <strong>Azure SQL Database</strong> mediante un modelo relacional estructurado.</p>
+                </div>
+                <div class="arch-row">
+                    <div class="arch-badge">⚡ Application Layer</div>
+                    <p>Utiliza Python, APIs REST, dashboards web y Cursor para: registro de producción, control de variables, consultas operativas y monitoreo de KPIs.</p>
+                </div>
+                <div class="arch-row">
+                    <div class="arch-badge">🔄 ETL Layer</div>
+                    <p>Desarrollada con Microsoft Fabric Data Factory, Dataflows y notebooks Python para: validación, transformación, consolidación y cálculo del indicador PPA.</p>
+                </div>
+                <div class="arch-row">
+                    <div class="arch-badge">🏛️ Data Warehouse Layer</div>
+                    <p>Consolida información histórica del PPA y variables operativas para análisis avanzado y reporting empresarial.</p>
+                </div>
+                <div class="arch-row">
+                    <div class="arch-badge">📊 Presentation Layer</div>
+                    <p>Dashboards interactivos, KPIs operativos, análisis de cumplimiento y visualizaciones ejecutivas mediante <strong>Microsoft Power BI</strong> y Excel.</p>
+                </div>
+                <div class="arch-row">
+                    <div class="arch-badge">🔐 User Access & Governance</div>
+                    <p>El acceso se administra mediante roles definidos en Azure y Power BI, garantizando seguridad, trazabilidad, control de accesos y monitoreo en tiempo real.</p>
+                </div>
+            </div>
 
+            <div class="img-center">
+                <img src="Imagenes/Arquitectura.png" width="1200" alt="Arquitectura del Proyecto">
+            </div>
         </div>
-
     </section>
 
     <!-- DATA LAYER -->
-
-    <section class="section">
-
+    <section class="section light-section">
         <div class="container">
-
+            <div class="section-label">🗄️ Base de Datos</div>
             <h2>Data Layer</h2>
-
             <p>
-                La base de datos fue diseñada para gestionar eficientemente el
-                cumplimiento del Plan de Producción integrando planificación,
-                producción real y variables de afectación.
+                La base de datos del sistema PPA ha sido diseñada para gestionar de forma eficiente la información relacionada al cumplimiento del Plan de Producción, integrando datos de planificación, ejecución real y variables de afectación operativa.
+            </p>
+            <p>
+                Su estructura relacional y normalizada garantiza la <strong>integridad, consistencia y trazabilidad</strong> de los datos, permitiendo analizar el desempeño productivo y facilitar la toma de decisiones en un entorno analítico. Este modelo puede implementarse en entornos SQL, permitiendo almacenamiento seguro y acceso confiable desde herramientas como Power BI, Python o plataformas de analítica avanzada.
             </p>
 
+            <h3 class="sub-heading">Tablas Principales del Modelo</h3>
+
             <div class="cards-grid">
-
-                <div class="info-card">
-
+                <div class="info-card table-card">
+                    <span class="card-ico">📋</span>
                     <h3>tb_plan_de_produccion</h3>
-
-                    <p>Registro de planificación operativa.</p>
-
+                    <p>Registra la planificación operativa: fecha, volumen planificado en HL, marca, turno y supervisor responsable. Representa el <em>baseline</em> operativo sobre el cual se mide el cumplimiento.</p>
                 </div>
-
-                <div class="info-card">
-
+                <div class="info-card table-card">
+                    <span class="card-ico">⚙️</span>
                     <h3>tb_produccion_real</h3>
-
-                    <p>Resultados reales y cálculo del indicador PPA.</p>
-
+                    <p>Contiene los resultados reales: volumen producido, producción programada e indicador de cumplimiento diario (PPA). Permite evaluar el desempeño frente al plan establecido.</p>
                 </div>
-
-                <div class="info-card">
-
+                <div class="info-card table-card">
+                    <span class="card-ico">⚠️</span>
                     <h3>tb_variables_presentadas</h3>
-
-                    <p>Registro de pérdidas y desviaciones.</p>
-
+                    <p>Registra las pérdidas de producción en hectolitros no producidos, asociadas a eventos o incidencias. Permite cuantificar el impacto real de las desviaciones.</p>
                 </div>
-
-                <div class="info-card">
-
+                <div class="info-card table-card">
+                    <span class="card-ico">🧩</span>
                     <h3>tb_variables_de_afectacion</h3>
-
-                    <p>Catálogo de causas raíz operativas.</p>
-
+                    <p>Catálogo de causas que generan pérdidas: paradas operativas, fallas mecánicas o problemas de suministro. Permite clasificar y analizar las causas raíz del incumplimiento del PPA.</p>
                 </div>
-
+                <div class="info-card table-card">
+                    <span class="card-ico">🏭</span>
+                    <h3>tb_marcas</h3>
+                    <p>Contiene información de los productos fabricados, incluyendo nombre de marca y factores de conversión asociados a la producción (factor HL por botella).</p>
+                </div>
+                <div class="info-card table-card">
+                    <span class="card-ico">🏗️</span>
+                    <h3>tb_lineas</h3>
+                    <p>Define las diferentes líneas operativas dentro de la planta, permitiendo segmentar la producción y analizar el desempeño por línea.</p>
+                </div>
+                <div class="info-card table-card">
+                    <span class="card-ico">⏱️</span>
+                    <h3>tb_turnos</h3>
+                    <p>Registra la organización temporal de la operación: nombre del turno y horarios de inicio y fin. Permite analizar la producción según franjas operativas.</p>
+                </div>
+                <div class="info-card table-card">
+                    <span class="card-ico">👷</span>
+                    <h3>tb_supervisores</h3>
+                    <p>Contiene la información de los responsables de la operación productiva, permitiendo asignar y analizar el desempeño por supervisor.</p>
+                </div>
             </div>
 
-            <img src="Imagenes/ModeloAzure.png" width="1000">
+            <div class="callout">
+                <span>💡</span>
+                <p>Este modelo relacional permite integrar la planificación, la ejecución real y las variables de afectación en una única estructura, proporcionando una base sólida para el análisis descriptivo y la construcción de modelos predictivos enfocados en el cumplimiento del PPA.</p>
+            </div>
 
+            <h3 class="sub-heading">Modelo de Datos en Azure SQL</h3>
+            <div class="img-center">
+                <img src="Imagenes/ModeloAzure.png" width="1200" alt="Modelo de Datos Azure">
+            </div>
         </div>
-
     </section>
 
-    <!-- APPLICATION -->
-
+    <!-- APPLICATION LAYER -->
     <section class="section dark-section">
-
         <div class="container">
-
+            <div class="section-label light-label">💻 Aplicación</div>
             <h2>Application Layer</h2>
 
-            <img src="Imagenes/DiagramaFlujo.png" width="1000">
-
-            <div class="gallery-grid">
-
-                <img src="Imagenes/App1.png" width="1000">
-
-                <img src="Imagenes/App2.png" width="1000">
-
-                <img src="Imagenes/App3.png" width="1000">
-
-                <img src="Imagenes/App4.png" width="1000">
-
-                <img src="Imagenes/App5.png" width="1000">
-
-                <img src="Imagenes/App6.png" width="1000">
-
-                <img src="Imagenes/App7.png" width="1000">
-
-                <img src="Imagenes/App8.png" width="1000">
-
+            <h3 class="sub-heading light-sub">Diagrama de Flujo</h3>
+            <p>A continuación se muestra el diagrama de flujo que representa el funcionamiento de la aplicación, enfocado para el uso en la empresa.</p>
+            <div class="img-center">
+                <img src="Imagenes/DiagramaFlujo.png" width="1200" alt="Diagrama de Flujo">
             </div>
 
-        </div>
+            <div class="app-steps">
+                <div class="app-step">
+                    <div class="step-header">
+                        <span class="step-num">1</span>
+                        <h4>Pantalla de Inicio</h4>
+                    </div>
+                    <p>Se cuenta con una pantalla principal que da la bienvenida al usuario a la aplicación. En el menú se visualizan las 3 funcionalidades: <strong>Datos maestros</strong>, <strong>Plan de producción</strong> y <strong>Producción real</strong>.</p>
+                    <div class="img-center mt-20">
+                        <img src="Imagenes/App1.png" width="1200" alt="Pantalla de inicio">
+                    </div>
+                </div>
 
+                <div class="app-step">
+                    <div class="step-header">
+                        <span class="step-num">2</span>
+                        <h4>Datos Maestros</h4>
+                    </div>
+                    <p>Se muestran las tablas maestras, las cuales se pueden modificar. Al ingresar a cualquier tabla maestra se muestra una ventana donde se pueden editar los datos.</p>
+                    <div class="gallery-grid mt-20">
+                        <img src="Imagenes/App2.png" alt="Datos maestros">
+                        <img src="Imagenes/App3.png" alt="Edición de datos maestros">
+                    </div>
+                </div>
+
+                <div class="app-step">
+                    <div class="step-header">
+                        <span class="step-num">3</span>
+                        <h4>Plan de Producción</h4>
+                    </div>
+                    <p>Al ingresar a la opción de plan de producción se filtra por semana y se visualiza desde el más reciente hasta el más antiguo. En este apartado se ingresa y programa la producción por supervisor y marca.</p>
+                    <div class="gallery-grid mt-20">
+                        <img src="Imagenes/App4.png" alt="Plan de producción">
+                        <img src="Imagenes/App5.png" alt="Ingreso de datos de producción">
+                    </div>
+                </div>
+
+                <div class="app-step">
+                    <div class="step-header">
+                        <span class="step-num">4</span>
+                        <h4>Producción Real</h4>
+                    </div>
+                    <p>Pulsando la opción de Producción Real, se busca de acuerdo a fecha y supervisor. Se muestra el plan de producción asociado y se solicita ingresar la cantidad de HL producidos realmente.</p>
+                    <div class="gallery-grid mt-20">
+                        <img src="Imagenes/App6.png" alt="Producción real">
+                        <img src="Imagenes/App7.png" alt="Confirmar variables">
+                        <img src="Imagenes/App8.png" alt="Variables de afectación">
+                    </div>
+                    <p class="note-text">💡 Al guardar los HL, aparece una ventana que pide confirmar si se desea agregar variables de afectación. Al presionar <strong>Sí</strong>, se despliega la ventana de variables; al presionar <strong>No</strong>, se redirige al menú principal.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- ETL -->
-
+    <!-- ETL LAYER -->
     <section class="section light-section">
-
         <div class="container">
-
+            <div class="section-label">🔄 Transformación</div>
             <h2>ETL Layer</h2>
+            <p>
+                El sistema emplea un dataflow automatizado de gestión de datos que integra diversas capas tecnológicas de Microsoft. Este flujo garantiza la adecuada <strong>integración, transformación y disponibilidad</strong> de la información para apoyar la toma de decisiones dentro de la organización.
+            </p>
 
-            <div class="gallery-grid">
-
-                <img src="Imagenes/azureserver.png" width="1000">
-
-                <img src="Imagenes/dataflow.png" width="1000">
-
-                <img src="Imagenes/codigoenvio1.png" width="1000">
-
-                <img src="Imagenes/codigoenvio2.png" width="1000">
-
-                <img src="Imagenes/codigoenvio3.png" width="1000">
-
-                <img src="Imagenes/codigoenvio4.png" width="1000">
-
-                <img src="Imagenes/codigoenvio5.png" width="1000">
-
-                <img src="Imagenes/codigoenvio6.png" width="1000">
-
+            <h3 class="sub-heading">Origen de Datos</h3>
+            <p>La información es ingresada mediante la aplicación, donde los usuarios registran operaciones relacionadas con la producción planeada y real del día. Posteriormente, estos datos se almacenan en <strong>Azure SQL Database</strong>.</p>
+            <div class="img-center">
+                <img src="Imagenes/azureserver.png" width="1200" alt="Azure Server">
             </div>
 
-        </div>
+            <h3 class="sub-heading">Pipeline de Transformación (Dataflow)</h3>
+            <p>El proceso ETL (extracción, transformación y carga) se ejecuta mediante un Dataflow en <strong>Microsoft Fabric</strong>, encargado de depurar, estandarizar y enriquecer la información antes de almacenarla en el Data Warehouse.</p>
+            <div class="img-center">
+                <img src="Imagenes/dataflow.png" width="1200" alt="Dataflow ETL">
+            </div>
 
+            <h3 class="sub-heading">Automatización con Notebooks</h3>
+            <p>Después de finalizar la etapa de transformación, se ejecutan Notebooks en Python con el fin de que las notificaciones diarias sean enviadas a los supervisores al inicio del día para el correspondiente análisis.</p>
+
+            <div class="etl-block">
+                <div class="etl-label">📧 Envío de correo 1 — PPA Diario</div>
+                <p>El primer envío consiste en el cálculo del PPA diario al corte del día anterior. El cálculo se realiza mediante consulta SQL a las tablas del modelo, generando un correo automático como se visualiza a continuación:</p>
+                <div class="gallery-grid mt-20">
+                    <img src="Imagenes/codigoenvio1.png" alt="Código envío 1">
+                    <img src="Imagenes/codigoenvio2.png" alt="Consulta SQL envío 1">
+                    <img src="Imagenes/codigoenvio3.png" alt="Correo generado envío 1">
+                </div>
+            </div>
+
+            <div class="etl-block">
+                <div class="etl-label">📧 Envío de correo 2 — Reporte de Supervisores</div>
+                <p>El segundo envío consiste en la generación de un reporte con fecha al corte del día anterior que contiene los nombres de los supervisores y sus turnos asociados. La finalidad es comparar los Hectolitros planificados con la producción real.</p>
+                <div class="gallery-grid mt-20">
+                    <img src="Imagenes/codigoenvio4.png" alt="Código envío 2">
+                    <img src="Imagenes/codigoenvio5.png" alt="Consulta SQL envío 2">
+                    <img src="Imagenes/codigoenvio6.png" alt="Correo generado envío 2">
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- DWH -->
-
+    <!-- DWH LAYER -->
     <section class="section">
-
         <div class="container">
-
+            <div class="section-label">🏛️ Almacenamiento</div>
             <h2>DWH Layer</h2>
-
-            <img src="Imagenes/Data Warehouse_1.png" width="1000">
-
+            <p>
+                En el proyecto, esta capa recibe los datos procesados de la capa ETL y los almacena en <strong>Azure SQL Database</strong>. Los datos son normalizados para realizar consultas y visualizaciones.
+            </p>
+            <p>
+                Dentro del Data Warehouse, además de las tablas ya explicadas, se generan las relaciones entre las mismas, la creación de una <strong>tabla calendario</strong>, medidas y una tabla de reporte que sirve para realizar el Business Case del proyecto. Todo esto permite un correcto control de filtros y visualizaciones de la información en tiempo real.
+            </p>
+            <h3 class="sub-heading">Vista del Data Warehouse en Microsoft Fabric</h3>
+            <div class="img-center">
+                <img src="Imagenes/Data Warehouse_1.png" width="1200" alt="Data Warehouse en Microsoft Fabric">
+            </div>
         </div>
-
     </section>
 
     <!-- POWER BI -->
-
     <section class="section dark-section">
-
         <div class="container">
+            <div class="section-label light-label">📊 Visualización</div>
+            <h2>Presentation Layer — Power BI</h2>
+            <p>
+                La capa de presentación está implementada por <strong>Microsoft Power BI</strong>, transformando los datos en reportes interactivos que permiten monitorear el desempeño de las líneas de producción, marcas y supervisores. Se desarrollaron <strong>2 archivos Power BI</strong>: uno que responde preguntas de negocio y otro que muestra un reporte de 1 página para explorar tendencias e indicadores clave.
+            </p>
 
-            <h2>Presentation Layer - Power BI</h2>
-
-            <div class="gallery-grid">
-
-                <img src="Imagenes/BI_1.png" width="1000">
-                <img src="Imagenes/BI_2.png" width="1000">
-                <img src="Imagenes/BI_3.png" width="1000">
-                <img src="Imagenes/BI_4.png" width="1000">
-                <img src="Imagenes/BI_5.png" width="1000">
-                <img src="Imagenes/BI_6.png" width="1000">
-                <img src="Imagenes/BI_7.png" width="1000">
-                <img src="Imagenes/BI_8.png" width="1000">
-                <img src="Imagenes/BI_9.png" width="1000">
-                <img src="Imagenes/BI_10.png" width="1000">
-                <img src="Imagenes/BI_11.png" width="1000">
-                <img src="Imagenes/BI_12.png" width="1000">
-                <img src="Imagenes/BI_13.png" width="1000">
-                <img src="Imagenes/BI_14.png" width="1000">
-                <img src="Imagenes/BI_15.png" width="1000">
-                <img src="Imagenes/BI_16.png" width="1000">
-                <img src="Imagenes/BI_17.png" width="1000">
-                <img src="Imagenes/BI_18.png" width="1000">
-                <img src="Imagenes/BI_19.png" width="1000">
-                <img src="Imagenes/BI_20.png" width="1000">
-                <img src="Imagenes/BI_21.png" width="1000">
-                <img src="Imagenes/BI_22.png" width="1000">
-                <img src="Imagenes/BI_23.png" width="1000">
-                <img src="Imagenes/BI_24.png" width="1000">
-                <img src="Imagenes/BI_25.png" width="1000">
-                <img src="Imagenes/BI_26.png" width="1000">
-
+            <h3 class="sub-heading light-sub">Reporte Power BI — Preguntas de Negocio</h3>
+            <p>Cada informe fue diseñado para apoyar la toma de decisiones ejecutivas y brindar un análisis detallado del funcionamiento de la planta y del cumplimiento de su plan de producción.</p>
+            <div class="kpi-pills">
+                <span>📌 Indicadores clave (KPIs): seguimiento de métricas como PPA y HL no producidos</span>
+                <span>📌 Narrativa visual: cada informe responde a preguntas de negocio concretas, resaltando resultados destacados</span>
             </div>
 
+            <div class="gallery-grid mt-20">
+                <img src="Imagenes/BI_1.png" alt="Power BI 1">
+                <img src="Imagenes/BI_2.png" alt="Power BI 2">
+                <img src="Imagenes/BI_3.png" alt="Power BI 3">
+                <img src="Imagenes/BI_4.png" alt="Power BI 4">
+                <img src="Imagenes/BI_5.png" alt="Power BI 5">
+                <img src="Imagenes/BI_6.png" alt="Power BI 6">
+                <img src="Imagenes/BI_7.png" alt="Power BI 7">
+                <img src="Imagenes/BI_8.png" alt="Power BI 8">
+                <img src="Imagenes/BI_9.png" alt="Power BI 9">
+                <img src="Imagenes/BI_10.png" alt="Power BI 10">
+                <img src="Imagenes/BI_11.png" alt="Power BI 11">
+                <img src="Imagenes/BI_12.png" alt="Power BI 12">
+                <img src="Imagenes/BI_13.png" alt="Power BI 13">
+                <img src="Imagenes/BI_14.png" alt="Power BI 14">
+                <img src="Imagenes/BI_15.png" alt="Power BI 15">
+                <img src="Imagenes/BI_16.png" alt="Power BI 16">
+                <img src="Imagenes/BI_17.png" alt="Power BI 17">
+                <img src="Imagenes/BI_18.png" alt="Power BI 18">
+                <img src="Imagenes/BI_19.png" alt="Power BI 19">
+                <img src="Imagenes/BI_20.png" alt="Power BI 20">
+                <img src="Imagenes/BI_21.png" alt="Power BI 21">
+                <img src="Imagenes/BI_22.png" alt="Power BI 22">
+                <img src="Imagenes/BI_23.png" alt="Power BI 23">
+                <img src="Imagenes/BI_24.png" alt="Power BI 24">
+                <img src="Imagenes/BI_25.png" alt="Power BI 25">
+                <img src="Imagenes/BI_26.png" alt="Power BI 26">
+            </div>
         </div>
-
     </section>
 
-    <!-- DASHBOARD -->
-
+    <!-- DASHBOARD INFORMATIVO -->
     <section class="section light-section">
-
         <div class="container">
-
-            <h2>Dashboard Informativo</h2>
-
-            <div class="gallery-grid">
-
-                <img src="Imagenes/Dashboard_1.png" width="1000">
-
-                <img src="Imagenes/Dashboard_2.png" width="1000">
-
-                <img src="Imagenes/Dashboard_3.png" width="1000">
-
+            <div class="section-label">🖥️ Dashboard</div>
+            <h2>Dashboard Informativo de Indicadores</h2>
+            <p>
+                Este informe permite una <strong>visualización histórica</strong> de los principales indicadores del proyecto, entre ellos el PPA, los HL Planeados, HL Producidos y HL No Producidos. También se implementó una ventana con marcadores que permite filtrar por: <strong>periodo, supervisor, producto, línea y turno</strong>.
+            </p>
+            <div class="gallery-grid mt-20">
+                <img src="Imagenes/Dashboard_1.png" alt="Dashboard 1">
+                <img src="Imagenes/Dashboard_2.png" alt="Dashboard 2">
+                <img src="Imagenes/Dashboard_3.png" alt="Dashboard 3">
             </div>
-
         </div>
-
     </section>
 
     <!-- CONCLUSIONES -->
-
     <section class="section conclusions">
-
         <div class="container">
-
+            <div class="section-label">✅ Cierre</div>
             <h2>Conclusiones</h2>
-
             <div class="cards-grid">
-
-                <div class="info-card">
-
+                <div class="info-card conclusion-card">
+                    <span class="card-ico">⚙️</span>
                     <h3>Automatización Operativa</h3>
-
-                    <p>
-                        Procesos ETL automatizados y reducción de tiempos manuales.
-                    </p>
-
+                    <p>Reducción de tiempos manuales mediante pipelines ETL automatizados y procesos inteligentes con Microsoft Power Automate.</p>
                 </div>
-
-                <div class="info-card">
-
+                <div class="info-card conclusion-card">
+                    <span class="card-ico">📈</span>
                     <h3>Inteligencia en Tiempo Real</h3>
-
-                    <p>
-                        Visualización y monitoreo de KPIs críticos.
-                    </p>
-
+                    <p>Dashboards interactivos en Power BI para monitoreo del PPA, cumplimiento de producción y análisis de variables de afectación.</p>
                 </div>
-
-                <div class="info-card">
-
+                <div class="info-card conclusion-card">
+                    <span class="card-ico">🔗</span>
+                    <h3>Integración Centralizada</h3>
+                    <p>Ingreso y actualización de información operativa conectada directamente a Azure SQL Database.</p>
+                </div>
+                <div class="info-card conclusion-card">
+                    <span class="card-ico">🔔</span>
+                    <h3>Alertas Proactivas</h3>
+                    <p>Notificaciones automáticas cuando el PPA sea menor a 96%, existan paradas críticas o se detecten desviaciones relevantes.</p>
+                </div>
+                <div class="info-card conclusion-card">
+                    <span class="card-ico">🔐</span>
                     <h3>Seguridad y Trazabilidad</h3>
-
-                    <p>
-                        Control de accesos mediante Azure y Power BI.
-                    </p>
-
+                    <p>Gestión de accesos por roles en Azure, Power Apps y Power BI con monitoreo continuo y control de accesos.</p>
                 </div>
-
-                <div class="info-card">
-
+                <div class="info-card conclusion-card">
+                    <span class="card-ico">🌐</span>
                     <h3>Escalabilidad Cloud</h3>
-
-                    <p>
-                        Arquitectura preparada para crecimiento empresarial.
-                    </p>
-
+                    <p>Arquitectura preparada para crecer con nuevas líneas, marcas o mercados sin necesidad de rediseño estructural.</p>
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
     <!-- FOOTER -->
-
     <footer>
-
-        <p>
-            Grupo 7 - PUCP 2026 | Building Cloud Business Applications
-        </p>
-
+        <div class="footer-inner">
+            <p class="footer-title">🍺 Building Cloud Business Applications for a Brewery Plant</p>
+            <p>Grupo 7 · PUCP 2026</p>
+        </div>
     </footer>
 
 </body>
-
 </html>
